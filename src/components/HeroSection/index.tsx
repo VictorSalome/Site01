@@ -2,10 +2,10 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 
 const images = [
-    { src: '/src/assets/nike.jpeg', alt: 'nike', title: 'Revolucione com as melhores marcas', inf: "O sucesso é a soma de pequenos esforços repetidos dia após dia." },
-    { src: '/src/assets/banana.jpeg', alt: 'banana', title: 'Doce e Saudável', inf: "A vida é como uma banana: é preciso descascar as dificuldades para aproveitar o melhor dela." },
-    { src: '/src/assets/praia.jpeg', alt: 'praia', title: 'Relaxamento e Paz', inf: "A tranquilidade não é um lugar, é um estado de espírito." },
-    { src: '/src/assets/ponte.jpeg', alt: 'ponte', title: 'Conecte-se com Novos Horizontes', inf: "Construa pontes, não muros. A verdadeira conexão está na empatia e na compreensão." },
+    { src: '../../public/assets/nike.jpeg', alt: 'nike', title: 'Revolucione com as melhores marcas', inf: "O sucesso é a soma de pequenos esforços repetidos dia após dia." },
+    { src: '../../public/assets//banana.jpeg', alt: 'banana', title: 'Doce e Saudável', inf: "A vida é como uma banana: é preciso descascar as dificuldades para aproveitar o melhor dela." },
+    { src: '../../public/assets/praia.jpeg', alt: 'praia', title: 'Relaxamento e Paz', inf: "A tranquilidade não é um lugar, é um estado de espírito." },
+    { src: '../../public/assets/ponte.jpeg', alt: 'ponte', title: 'Conecte-se com Novos Horizontes', inf: "Construa pontes, não muros. A verdadeira conexão está na empatia e na compreensão." },
 ];
 
 const HeroSection: React.FC = () => {

@@ -24,7 +24,7 @@ const ContactSection: React.FC = () => {
                         className="cursor-pointer flex items-center space-x-3 bg-pink-500 text-white p-3 rounded-lg shadow-sm hover:bg-pink-600 transition-colors duration-300 ease-in-out"
                     >
                         <FaInstagram size={20} />
-                        <span className="font-medium">Instagram</span>f
+                        <span className="font-medium">Instagram</span>
                     </a>
 
                     <a
