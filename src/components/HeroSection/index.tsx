@@ -2,10 +2,10 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 
 const images = [
-    { src: '../../public/assets/nike.jpeg', alt: 'nike', title: 'Revolucione com as melhores marcas', inf: "O sucesso é a soma de pequenos esforços repetidos dia após dia." },
-    { src: '../../public/assets//banana.jpeg', alt: 'banana', title: 'Doce e Saudável', inf: "A vida é como uma banana: é preciso descascar as dificuldades para aproveitar o melhor dela." },
-    { src: '../../public/assets/praia.jpeg', alt: 'praia', title: 'Relaxamento e Paz', inf: "A tranquilidade não é um lugar, é um estado de espírito." },
-    { src: '../../public/assets/ponte.jpeg', alt: 'ponte', title: 'Conecte-se com Novos Horizontes', inf: "Construa pontes, não muros. A verdadeira conexão está na empatia e na compreensão." },
+    { src: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff', alt: 'nike', title: 'Revolucione com as melhores marcas', inf: "O sucesso é a soma de pequenos esforços repetidos dia após dia." },
+    { src: 'https://images.unsplash.com/photo-1481349518771-20055b2a7b24', alt: 'banana', title: 'Doce e Saudável', inf: "A vida é como uma banana: é preciso descascar as dificuldades para aproveitar o melhor dela." },
+    { src: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308', alt: 'praia', title: 'Relaxamento e Paz', inf: "A tranquilidade não é um lugar, é um estado de espírito." },
+    { src: 'https://images.unsplash.com/photo-1521747116042-5a810fda9664', alt: 'ponte', title: 'Conecte-se com Novos Horizontes', inf: "Construa pontes, não muros. A verdadeira conexão está na empatia e na compreensão." },
 ];
 
 const HeroSection: React.FC = () => {
